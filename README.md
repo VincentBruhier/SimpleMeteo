@@ -21,6 +21,7 @@ Documentations
 * internationnalization
 * logging
 * test unit
+* better style management
 
 ## project
 
