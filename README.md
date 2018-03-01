@@ -12,9 +12,9 @@ Référence :
 ## Pré-requis système
 
 Documentations
-* Android : [docs/requirement-android.md)[docs/requirement-android.md]
+* Android : [docs/requirement-android.md](docs/requirement-android.md)
 * iOS : TODO
-* React Native : [docs/requirement-reactnative.md)[docs/requirement-reactnative.md]
+* React Native : [docs/requirement-reactnative.md](docs/requirement-reactnative.md)
 
 ## Todo list
 
