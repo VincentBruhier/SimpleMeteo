@@ -1,0 +1,8 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# fichier '.env'
+#   variables loader par NodeJS
+#
+# doc : https://www.npmjs.com/package/dotenv
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OPENWEATHERMAP_APIKEY=xxxxxx
