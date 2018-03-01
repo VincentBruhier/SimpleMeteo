@@ -1,8 +1,9 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # fichier '.env'
-#   variables loader par NodeJS
+#   variables loader par React Native
 #
-# doc : https://www.npmjs.com/package/dotenv
+# doc : https://github.com/zetachang/react-native-dotenv
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OPENWEATHERMAP_APIKEY=xxxxxx
+OPENWEATHERMAP_APIKEY=xxxx
+ABOUT_EMAIL="author@example.com"

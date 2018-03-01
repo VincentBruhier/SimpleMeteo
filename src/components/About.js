@@ -4,6 +4,7 @@ import React from 'react';
 import { ActivityIndicator,View,Text,StyleSheet,TouchableHighlight,Linking,Image,Button } from 'react-native';
 import AutoLink from 'react-native-autolink';
 
+import { ABOUT_EMAIL } from 'react-native-dotenv'
 import Style   from '../Style';
 
 
@@ -20,28 +21,34 @@ export default class About extends React.Component {
 		// composant dans une navigation : this.props.navigation (ref vers le TabNavigator)
 		this.props.navigation.navigate('Search')
 	}
+	getLinkedText(){
+		return `Vincent BRUHIER ${ABOUT_EMAIL}`
+	}
 
 	render(){
 		return (
 			<View style={Style.aboutView}>
 				<Text style={Style.aboutTitle}>A propos</Text>
-				<Text>Vincent BRUHIER (vincent.bruhier@dauphine.fr)</Text>
+				<Text>Vincent BRUHIER ({ABOUT_EMAIL})</Text>
 
 				<Text style={Style.aboutSection}>autolink</Text>
-				<AutoLink text="Vincent BRUHIER (vincent.bruhier@dauphine.fr)" email={true} />
+				<AutoLink text={this.getLinkedText()} email={true} />
 
 				<Text style={Style.aboutSection}>View in row</Text>
-				<View style={{flex: 2, flexDirection: 'row'}}>
+				<View style={{flex: 1, flexDirection: 'row',justifyContent: 'space-between'}} >
 					<Text>Vincent BRUHIER : </Text>
-					<TouchableHighlight onPress={() => Linking.openURL('mailto:vincent.bruhier@gmail.com')}>
-						<Text style={Style.aboutLink}>vincent.bruhier@dauphine.fr</Text>
-					</TouchableHighlight>
+					<View>
+						<TouchableHighlight onPress={() => Linking.openURL(`mailto:${ABOUT_EMAIL}`)}>
+							<Text style={Style.aboutLink}>{ABOUT_EMAIL}</Text>
+						</TouchableHighlight>
+					</View>
 				</View>
 
-
-				<TouchableHighlight onPress={() => Linking.openURL('mailto:vincent.bruhier@gmail.com')}>
-					<Text style={Style.aboutLink}>vincent.bruhier@dauphine.fr</Text>
+				<Text style={Style.aboutSection}>direct mail</Text>
+				<TouchableHighlight onPress={() => Linking.openURL(`mailto:${ABOUT_EMAIL}`)}>
+					<Text style={Style.aboutLink}>{ABOUT_EMAIL}</Text>
 				</TouchableHighlight>
+
 
 				<Text style={Style.aboutSection}>Indicator</Text>
 				<ActivityIndicator size="small" color="#2266ff" />

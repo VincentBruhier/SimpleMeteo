@@ -24,6 +24,16 @@ Documentations
 
 ## project
 
+### screenshots
+
+| search pane            | forecast pane        | about pane              |
+| ---------------------- | -------------------- | ----------------------- |
+| xxx                    | xxx                  | xxx                     |
+
+![Search](screenshots/pane-search.png)
+![Forecast](screenshots/pane-forecast.png)
+![About](screenshots/pane-about.png)
+
 ### local properties
 
 Indiquer le path ANDROID_SDK_ROOT via le ./local.properties
