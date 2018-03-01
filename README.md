@@ -38,7 +38,7 @@ Indiquer le path ANDROID_SDK_ROOT via le ./local.properties
 # ====================================================================================================================================
 # SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
 # ====================================================================================================================================
-sdk.dir=/home/vbruhier/Android/Sdk
+sdk.dir=/home/user/Android/Sdk
 ~~~
 
 ### dependances
