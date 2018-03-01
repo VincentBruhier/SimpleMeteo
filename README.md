@@ -26,13 +26,10 @@ Documentations
 
 ### screenshots
 
-| search pane            | forecast pane        | about pane              |
-| ---------------------- | -------------------- | ----------------------- |
-| xxx                    | xxx                  | xxx                     |
+| search pane                              | forecast pane                                | about pane                              |
+|:----------------------------------------:|:--------------------------------------------:|:---------------------------------------:|
+| ![Search](screenshots/pane-search.png)   | ![Forecast](screenshots/pane-forecast.png)   | ![About](screenshots/pane-about.png)    |
 
-![Search](screenshots/pane-search.png)
-![Forecast](screenshots/pane-forecast.png)
-![About](screenshots/pane-about.png)
 
 ### local properties
 
