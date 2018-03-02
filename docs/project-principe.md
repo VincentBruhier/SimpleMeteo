@@ -3,20 +3,19 @@ Application Mobile : Simple Meteo
 
 Application React Native tutoriel de prévisions météorologiques
 
-Application React Native tutorial (android application)
 
-## Références
+## References
 
-Référence :
 * excellent vidéo YouTube [Découverte de ReactNative, App Météo](https://www.youtube.com/watch?v=Y7rbJRjaYCY) de [Grafikart.fr](https://www.grafikart.fr/)
 
-## Aperçu
 
-| search pane                              | forecast pane                                | about pane                              |
-|:----------------------------------------:|:--------------------------------------------:|:---------------------------------------:|
-| ![Search](screenshots/pane-search.png)   | ![Forecast](screenshots/pane-forecast.png)   | ![About](screenshots/pane-about.png)    |
+## Todo list
 
-## Dépendances
+* internationnalization
+* test unit
+* better style management
+
+## Dependances
 
 Le projet SimpleMeteo requiert des dépendances en plus de la base react-native
 

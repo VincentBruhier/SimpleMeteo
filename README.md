@@ -3,9 +3,9 @@ Application Mobile : Simple Meteo
 
 Application React Native tutorial (android application)
 
-## Références
 
-Référence :
+## References
+
 * excellent vidéo YouTube [Découverte de ReactNative, App Météo](https://www.youtube.com/watch?v=Y7rbJRjaYCY) de [Grafikart.fr](https://www.grafikart.fr/)
 
 ## Documentations
@@ -19,13 +19,6 @@ React-native
 * commencer avec React Native : [docs/started-reactnative.md](docs/started-reactnative.md)
 
 
-## Todo list
-
-* internationnalization
-* logging
-* test unit
-* better style management
-
 ## Projet
 
 ### aperçu
@@ -34,7 +27,7 @@ React-native
 |:----------------------------------------:|:--------------------------------------------:|:---------------------------------------:|
 | ![Search](screenshots/pane-search.png)   | ![Forecast](screenshots/pane-forecast.png)   | ![About](screenshots/pane-about.png)    |
 
-### démarrage
+### demarrage
 
 Configurer l'accès au service au service météorologique d'[OpenWeatherMap](https://openweathermap.org)
 * créer une clé d'accès à l'API Rest en s'enregistrant avec une adresse mail à partir du site [openweathermap.org](https://openweathermap.org/api)
