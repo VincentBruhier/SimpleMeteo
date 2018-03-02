@@ -43,4 +43,4 @@ Démarrer votre application
 
 ### complements
 
-[docs/project.md](docs/project.md)
+[documentation complémentaire sur le projet](docs/project-dev.md)
