@@ -1,13 +1,13 @@
-Android requirements
+Android pré-requis
 ========================================
 
-## References
+## Références
 
-Documentation : [https://kylewbanks.com/blog/react-native-tutorial-part-1-hello-react](https://kylewbanks.com/blog/react-native-tutorial-part-1-hello-react)
+Tutoriel vidéo de Kyle Banks : [react-native-tutorial hello-react](https://kylewbanks.com/blog/react-native-tutorial-part-1-hello-react)
 
 ## Install
 
-Install Android-Studio
+Installer Android-Studio dans votre environnement utilisateur
 
 ## variables d'environnement
 

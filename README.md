@@ -6,15 +6,18 @@ Application React Native tutorial (android application)
 ## Références
 
 Référence :
-* vidéo youtube (https://www.youtube.com/watch?v=Y7rbJRjaYCY)
-* keyworks : Tuto + ReactNative + App + Météo
+* excellent vidéo YouTube [Découverte de ReactNative, App Météo](https://www.youtube.com/watch?v=Y7rbJRjaYCY) de [Grafikart.fr](https://www.grafikart.fr/)
 
-## Pré-requis système
+## Documentations
 
-Documentations
-* Android : [docs/requirement-android.md](docs/requirement-android.md)
-* iOS : TODO
-* React Native : [docs/requirement-reactnative.md](docs/requirement-reactnative.md)
+Pré-requis système
+* support pour Android : [docs/requirement-android.md](docs/requirement-android.md)
+* support pour iOS : TODO
+
+
+React-native
+* commencer avec React Native : [docs/started-reactnative.md](docs/started-reactnative.md)
+
 
 ## Todo list
 
@@ -23,61 +26,28 @@ Documentations
 * test unit
 * better style management
 
-## project
+## Projet
 
-### screenshots
+### aperçu
 
 | search pane                              | forecast pane                                | about pane                              |
 |:----------------------------------------:|:--------------------------------------------:|:---------------------------------------:|
 | ![Search](screenshots/pane-search.png)   | ![Forecast](screenshots/pane-forecast.png)   | ![About](screenshots/pane-about.png)    |
 
+### démarrage
 
-### local properties
+Configurer l'accès au service au service météorologique d'[OpenWeatherMap](https://openweathermap.org)
+* créer une clé d'accès à l'API Rest en s'enregistrant avec une adresse mail à partir du site [openweathermap.org](https://openweathermap.org/api)
+* créer un fichier '.env' à partir du fichier d'exemple fourni [env-example](env-example) avec votre clé OpenWeatherMap
 
-Indiquer le path ANDROID_SDK_ROOT via le ./local.properties
-~~~text
-# ====================================================================================================================================
-# SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
-# ====================================================================================================================================
-sdk.dir=/home/user/Android/Sdk
-~~~
-
-### dependances
-
-Project extra-dependencies in the react-native project
-
-| dependency                | description                                                      |
-|-------------------------- |----------------------------------------------------------------- |
-| react-native-autolink     | text with link (ex : mailto, url, hashtag)                       |
-| react-navigation          | navigation context in your application (example : 'go back')     |
-| axios                     | HTTP call library appel (use for API Rest)                       |
-| moment                    | date library                                                     |
-| dotenv                    | extension library for your custom var ('.env' file)              |
-| react-native-dotenv       | extension library for your custom var ('.env' file)              |
-
-Install or reload dependancies via npm (package.json)
+Démarrer votre application
 ~~~shell
 [user@computer ~]$ cd <<project-dir>>
+[user@computer project]$ [ ! -f ./local.properties ] && echo "sdk.dir=${ANDROID_SDK_ROOT}" > ./local.properties
 [user@computer project]$ npm install
+[user@computer project]$ react-native <run-ios|run-android>
 ~~~
 
+### complements
 
-### variables projets
-
-Créer un fichier .env à partir du fichier d'exemple fourni [env-example](env-example)
-
-### forecast webservice
-
-This project use webservice [openweathermap.org](https://openweathermap.org).
-
-* [openweathermap.org](https://openweathermap.org) API Rest documentation : [https://openweathermap.org/api](https://openweathermap.org/api)
-
-Call webservice sample with curl
-~~~
-[user@computer ~]$ curl "http://api.openweathermap.org/data/2.5/forecast?q=Paris&APPID=xxxxxx"
-...
-[user@computer ~]$ 
-~~~
-
-To get a API KEY for [openweathermap.org](https://openweathermap.org), you need to sign up with an email address on [openweathermap.org](https://openweathermap.org).
-
+[docs/project.md](docs/project.md)
